@@ -1,0 +1,274 @@
+* {
+    margin : 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: libra;
+    src: url(./fonrts/Libre_Baskerville\,Poppins/ );
+}
+
+
+
+/* navbar start  */
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+
+
+.navlinks ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: libra;
+}
+
+
+.navlinks ul a{
+    text-transform: uppercase;
+}
+
+
+.hdr-btn {
+    padding: 12px 25px;
+    background-color: rgb(250 89 89 );
+    border-radius:5px;
+    border: none;
+    font-family: libra;
+}
+
+/* navbar end  */
+
+/* hero section start */
+
+
+.hero{
+     width: 100%;
+     display: flex;
+     gap: 70px;
+     justify-content: center;
+     align-items: center;
+     padding-top: 30px;
+     padding-bottom:70px ;
+}
+
+
+.hero-content{
+    width: 38%;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     text-align: left;
+     justify-content: center;
+     font-family: libra;
+}
+
+
+.hero-img{
+    width: 38%;
+    position: relative;
+}
+
+.hero-img img{
+    width: 100%;
+}
+
+
+.rectngle{
+    width: 50%;
+    background-color:rgb(82 103 223 ) ;
+    height: 20rem;
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    position: absolute;
+    right: 0%;
+    bottom:50px;
+    z-index: -1;
+}
+
+.hero-h2{
+          font-size: 20px;
+   
+}
+
+#hero2h{
+font-size:30px;
+}
+
+.hero-p{
+    /* padding-right: 60px; */
+    font-size: 20px;
+}
+
+
+.hero-btn button{
+    padding: 12px 25px;
+    color: black;
+   border: none;
+   border-radius:5px ;
+   font-weight: 100px;
+   font-style: normal;
+   font-display: swap;
+   box-shadow:2px  #ced2d6;
+   text-transform: capitalize;
+   font-family: libra;
+   font-size: 20px;
+}
+
+.btn-1{
+        background-color: rgb(82 103 223 );
+        margin-right: 10px;
+}
+
+.btn-2{
+   background-color:#e5e7eb;
+
+}
+
+.btn-2:hover{
+       background-color: rgb(82 103 223);
+           color: black;
+    transform: scale(1.1);
+
+}
+
+.btn-1:hover{
+    background-color: #e5e7eb;
+    color: black;
+    transform: scale(1.1);
+
+}
+
+/* features secion start */
+
+
+.mainbox{
+    display: flex;
+     flex-direction: column; 
+     gap: 20px;
+     background-color: rgb(247 247 247 );
+     margin-top: 150px;
+
+}
+
+
+.features {
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ padding: 50px;
+ font-family: libra;
+ font-size: 20px;
+ background-color: rgb(247 247 247 );
+}
+
+
+.features-p{
+    padding: 0px 330px;
+    font-size: 20px;
+}
+
+
+/* hero section start */
+
+
+
+
+#features-1{
+    flex-direction: row-reverse;
+    display: flex;
+    gap: 80px;
+    background-color: rgb(247 247 247 );
+    padding-right: 50px;
+
+}
+
+
+#features-2{
+    padding:80px ;
+    gap: 80px;
+    background-color: rgb(247 247 247 );
+
+}
+
+
+
+
+#features-3{
+    flex-direction: row-reverse;
+    display: flex;
+    gap: 80px;
+    background-color: rgb(247 247 247 );
+    padding-right: 50px;
+}
+/*     
+.rectngle2 {
+    width: 50%;
+    background-color:rgb(82 103 223 ) ;
+    height: 20rem;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    position: absolute;
+    left: 0%;
+    bottom:50px;
+    z-index: -1;  
+} */
+
+
+/* section 2 end */
+
+
+
+
+
+
+
+
+
+
+
+/* media queries start */
+
+
+/* @media screen and (min-width:0px) (max-width:480px) {
+
+
+}
+
+
+
+
+@media screen and (min-width:481px) (max-width:768px) {
+    
+}
+
+
+
+
+
+@media screen and (min-width:796px) (max-width:127px) {
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
