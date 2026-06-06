@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+.fa-bars{
+    display: none;
+}
 
 @font-face {
     font-family: libra;
@@ -94,6 +97,7 @@ header {
     right: 0%;
     bottom:50px;
     z-index: -1;
+    display: block;
 }
 
 .hero-h2{
@@ -241,15 +245,105 @@ font-size:30px;
 /* media queries start */
 
 
-/* @media screen and (min-width:0px) (max-width:480px) {
+ @media screen and (min-width:0px) and (max-width:480px) {
+    .fa-bars{
+        display: block;
+    }
 
-
+    header{
+        justify-content: space-between;
+        padding: 10px 30px;
+        width: 100%;
+    }
+    .navlinks{
+        display: none;
+    }
+  
+    .hdr-btn{
+        display: block;
+        gap: 12px;
+        margin: 10px;
+    }
+        .hero{
+            padding: 20px 30px;
+        flex-direction: column-reverse;
+    }
+    .hero .hero-content .hero-h2{
+    font-size: 8px;
+    text-align: center;
+    width: 100%;
+    padding-top: 0px;
+    }
+    .hero .hero-img{
+        width: 100%;
+        .hero-h2{
+        font-size: 100px;
+        } 
+    .hero .hero-content .hero-h2{
+      font-size: 14px;
+    }
+    .hero .hero-content{
+        width: 100%;
+        padding: 0%;
+    }
+     .hero .hero-content .hero-p{
+ features-p{
+    font-size:12px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    padding-top: 0px;
+   }
+   .hero-h2{
+    font-size:5px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    padding-top: 0px;
+    }
+    .rectngle{
+        display: none;
+    }      font-size: 10px;
+    } 
+    .hero-btn button{
+        padding: 10px 15px;
+        font-size: 14px;
+    } 
+  #features-1{
+     width: 100%;
+    flex-direction: column-reverse;
+  }
+   #features-2{
+     width: 100%;
+    flex-direction: column-reverse;
+  }
+   #features-3{
+    width: 100%;
+    flex-direction: column-reverse;
+  }
 }
 
 
 
 
-@media screen and (min-width:481px) (max-width:768px) {
+@media screen and (min-width:481px) and (max-width:768px) {
+        .fa-bars{
+        display: block;
+    }
+
+    header{
+        justify-content: space-between;
+        padding: 10px 30px;
+    }
+    .navlinks{
+        display: none;
+    }
+    .hdr-btn{
+        display: block;
+    }
+    .hero{
+        flex-direction: column;
+    }
     
 }
 
@@ -257,18 +351,10 @@ font-size:30px;
 
 
 
-@media screen and (min-width:796px) (max-width:127px) {
+@media screen and (min-width:769px) and (max-width:1279px) {
     
-} */
+} 
 
+@media screen and (min-width:1280px) {
 
-
-
-
-
-
-
-
-
-
-
+}
