@@ -353,25 +353,25 @@ font-size:30px;
 }
 
 .icon1{
-    margin-left:245px ;
+    margin-left:220px ;
 }
 
 
 
 .icon2{
-    margin-left:150px ;
+    margin-left:125px ;
 }
 
 
 
 .icon3{
-    margin-left:250px ;
+    margin-left:225px ;
 }
 
 
 
 .icon4{
-    margin-left:134px ;
+    margin-left:112px ;
 }
 
 
@@ -448,12 +448,57 @@ user-select: none;
 color: black;
 }
 
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 40px 100px;
+    background-color: rgb(36 42 69);
+    justify-content: center;
+}
+
+
+.footer-logo {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     gap: 40px;
+}
+
+
+
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+
+.footer-logo ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    text-decoration: non;
+    color: white;
+    list-style: none;
+}
+
+
+.footer-icon{
+    color: white;
+    size: 20px;
+    margin-left:600px ;
+}
+
+
 /* form section end */
 
 
 /* footer
 
 /* cart section ens */
+
 
 
 
@@ -771,6 +816,53 @@ user-select: none;
 color: black;
 }
 
+/* footer start */
+       
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 100%;
+    padding: 40px 60px;
+    background-color: rgb(36 42 69);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-logo {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     gap:40px;
+}
+
+
+
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+.footer-logo ul{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    text-decoration: non;
+    color: white;
+    list-style: none;
+}
+
+
+.footer-icon{
+    color: white;
+    size: 20px;
+    margin-left:0px ;
+}
 
 
 }
@@ -1101,6 +1193,50 @@ user-select: none;
 color: black;
 }
 
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 100%;
+    padding: 40px 60px;
+    background-color: rgb(36 42 69);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-logo {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     gap:40px;
+}
+
+
+
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+.footer-logo ul{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    text-decoration: non;
+    color: white;
+    list-style: none;
+}
+
+
+.footer-icon{
+    color: white;
+    size: 20px;
+    margin-left:0px ;
+}
 
   
 }
